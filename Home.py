@@ -5,8 +5,8 @@ st.set_page_config(
     page_title='Home',
     layout='wide')
 
-image_path = (r'C:\Users\victo\repositorio')
-image = Image.open(image_path + '\logo.png')
+image_path = ('logo.png')
+image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Curry Company')
